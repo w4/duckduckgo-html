@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "DuckDuckGo HTML",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{733bce43-2af2-48c4-9fc6-98f1765130f9}",
+      "strict_min_version": "117.0"
+    }
+  },
+  "omnibox": {
+    "keyword": "ddg"
+  },
+  "icons": {
+    "48": "logo.svg",
+    "96": "logo.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "DuckDuckGo HTML",
+      "search_url": "https://html.duckduckgo.com/html/?q={searchTerms}",
+      "is_default": true,
+      "favicon_url": "logo.svg",
+      "keyword": "ddg",
+      "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list"
+    }
+  }
+}
